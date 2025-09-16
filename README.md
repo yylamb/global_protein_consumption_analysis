@@ -23,25 +23,28 @@
 ## 📁 项目结构
 
 
+```bash
+
 global-protein-consumption-analysis/
 │
-├── data/ # 数据目录
-│ └── processed/ # 清洗后的数据（可选）
-│ └── sample_data.csv # 用于演示的样例数据
+├── data/                 # 数据目录
+│   └── processed/        # 清洗后的数据
+│       └── sample_data.csv # 用于演示的样例数据(已添加)
 │
-├── notebooks/ # Jupyter Notebook 目录
-│ └── main_analysis.ipynb # 完整的数据分析与建模过程
+├── notebooks/            # Jupyter Notebook 目录
+│   └── main_analysis.ipynb  # 完整的数据分析与建模过程
 │
-├── reports/ # 报告与结果目录
-│ └── figures/ # 生成的所有图表
-│ ├── correlation_heatmap.png
-│ ├── cluster_radar.png
-│ └── ...
+├── reports/              # 报告与结果目录
+│   └── figures/          # 生成的所有图表
+│       ├── correlation_heatmap.png
+│       ├── cluster_radar.png
+│       └── ...         
 │
-├── README.md # 项目说明（本文件）
-├── requirements.txt # 项目依赖库列表
-└── LICENSE # MIT许可证
+├── README.md            # 项目说明（本文件）
+├── requirements.txt     # 项目依赖库列表
+└── LICENSE             # MIT许可证
 
+```
 ## ⚙️ 安装与运行
 
 1.  **克隆仓库**
@@ -94,7 +97,7 @@ global-protein-consumption-analysis/
 
 ## 🛠 技术栈
 
--   **编程语言**: Python 3.8+
+-   **编程语言**: Python 3
 -   **数据处理**: Pandas, NumPy
 -   **数据可视化**: Matplotlib, Seaborn
 -   **机器学习**: Scikit-learn
@@ -103,7 +106,7 @@ global-protein-consumption-analysis/
 ## 🙋 常见问题（FAQ）
 
 **Q: 数据来源是哪里？**
-> A: 本项目数据来源于 [请在此处填写你的数据来源，例如：联合国粮农组织(FAO)数据库]，包含2000年至2020年25个国家的9类蛋白质人均年消费量（克/天）。
+> A: 本项目数据来源于 联合国粮农组织(FAO)数据库，包含2000年至2020年25个国家的9类蛋白质人均年消费量（克/天）。
 
 **Q: 如何处理缺失值？**
 > A: 采用了多重插补法（MICE）处理约12%的缺失数据，以保证分析的完整性。
@@ -118,9 +121,3 @@ global-protein-consumption-analysis/
 -   西南大学 - 信息管理与信息系统
 -   GitHub: [@yylamb](https://github.com/yylamb)
 -   邮箱: 2024769610@qq.com
-
----
-
-## English Version (Optional)
-
-A data analysis and machine learning project to explore global protein consumption patterns through clustering algorithms and reveal relationships with economic factors.
