@@ -90,9 +90,9 @@ global-protein-consumption-analysis/
 -   **沿海国家的鱼类消费量平均比内陆国家高42%**。
 -   聚类结果与世界银行收入分组有较高一致性，但提供了更细致的**消费行为视角**。
 
-*(请在此处插入您自己的图表，替换下面的链接和描述)*
 
 ![Cluster Consumption Patterns](reports/figures/cluster_radar.png)
+
 *图：四个集群的蛋白质消费雷达图，清晰展示了各群体的消费偏好差异。*
 
 ## 🛠 技术栈
